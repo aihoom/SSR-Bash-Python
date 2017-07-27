@@ -18,8 +18,6 @@ while :; do echo
 	fi
 done
 
-	
-fi
 
 if [[ $devc == 1 ]];then
 	wget -4qO- softs.pw/Bash/Get_Out_Spam.sh|bash

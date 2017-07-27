@@ -11,14 +11,14 @@ echo "2.防止暴力破解SS连接信息 (重启后失效)"
 while :; do echo
 	read -p "请选择： " devc
 	[ -z "$devc" ] && ssr && break
-	if [[ ! $devc =~ ^[1-3]$ ]]; then
+	if [[ ! $devc =~ ^[1-2]$ ]]; then
 		echo "输入错误! 请输入正确的数字!"
 	else
 		break	
 	fi
 done
 
-	ssr
+	
 fi
 
 if [[ $devc == 1 ]];then
